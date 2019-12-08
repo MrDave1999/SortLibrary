@@ -34,7 +34,7 @@ public class SArray<T>
 			if(jumps != 1)
 				jumps /= 2;
 			if(jumps == 1)
-				change = true;
+				change = true; 
 			for(i = 0; i + jumps < len; ++i)
 			{		
 				if(cmp.compare(array[i], array[i + jumps]) > 0)
